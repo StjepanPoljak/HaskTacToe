@@ -1,2 +1,3 @@
 # TicTacToe
-TicTacToe game for *NIX terminals in Haskell.
+TicTacToe game made in Haskell for Linux terminal. AI uses minimax 
+algorithm with adjustable difficulty.
