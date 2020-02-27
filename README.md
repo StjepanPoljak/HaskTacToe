@@ -38,3 +38,7 @@ If everything went well, you are ready to run HaskTacToe:
 ```shell
 stack exec HaskTacToe
 ```
+
+## demo
+
+![](demo/hasktactoe-demo.gif)
