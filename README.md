@@ -3,9 +3,9 @@
 TicTacToe game made in Haskell for Linux terminal. AI uses minimax 
 algorithm with adjustable difficulty (if you wish to tinker with the `Main.hs` source file).
 
-## build
+## Build
 
-### stack
+### Stack
 
 First, install [stack](https://docs.haskellstack.org/en/stable/README/#how-to-install). For Ubuntu, it is rather straightforward:
 
@@ -39,10 +39,10 @@ If everything went well, you are ready to run HaskTacToe:
 stack exec HaskTacToe
 ```
 
-## controls
+## Usage
 
 As with most of my programs, use arrow keys to move, the return key to select and escape to exit. Have fun!
 
-## demo
+## Demo
 
 ![](demo/hasktactoe-demo.gif)
