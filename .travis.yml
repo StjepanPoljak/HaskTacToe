@@ -1,0 +1,7 @@
+os: linux
+dist: bionic
+before_install:
+  - wget -qO- https://get.haskellstack.org/ | sh
+  - export PATH=$PATH:"/home/$(id -un)/.local/bin"
+script:
+  - stack exec HaskTacToe
