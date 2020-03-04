@@ -1,5 +1,7 @@
 # HaskTacToe
 
+[![Build Status](https://travis-ci.org/StjepanPoljak/HaskTacToe.svg?branch=master)](https://travis-ci.org/StjepanPoljak/HaskTacToe)
+
 TicTacToe game made in Haskell for Linux terminal. AI uses minimax 
 algorithm with adjustable difficulty (if you wish to tinker with the `Main.hs` source file).
 
@@ -24,6 +26,7 @@ export PATH=$PATH:"/home/$(id -un)/.local/bin"
 Then, in the HaskTacToe folder, do:
 
 ```shell
+stack init
 stack setup
 ```
 
